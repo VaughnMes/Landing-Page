@@ -1,29 +1,82 @@
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-
-.logo {
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: bold;
+.upper-body {
+    background-color:  #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 
 .header {
-    background-color: #1f2937;
-    display: flex;  
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 80px;
 }
 
 .header-links {
     display: flex;
-    gap: 25px;
+    gap: 15px;
 }
+
+
+/* removes underlines from links */
+a {
+    text-decoration: none;
+    color:lightgray ;
+    font-size: 18px;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+/* removes bullet points from lists */
+ul {
+    list-style: none;
+}
+
+.website-name {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext, .img-placeholder {
+    color: lightgray;
+    font-size: 18px;
+}
+
+.top-button {
+    background-color: #3882f8;
+    color: #f9faf8;
+}
+
+.upper-left-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.upper-left-body-container {
+   /* background-color: white; */
+}
+
+.img-placeholder {
+   padding: 100px;
+   background-color: white;
+}
+
+
+
+
+
