@@ -1,4 +1,3 @@
-
 body {
     /* eliminates small border around edges of page */
     margin: 0;
@@ -87,7 +86,50 @@ ul {
    background-color: gray;
 }
 
+.second-layer {
+    padding-bottom: 50px;
+}
 
+.second-body-title {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
 
+.box {
+    width: 30px;
+    border: 3px solid #3882f8;
+    border-radius: 10px;
+    padding: 65px;
+    box-sizing: border-box;
+    margin: 5px 15px 10px;
+}
 
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-subtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    box-sizing: border-box;
+    color: darkgray;
+}
+
+.second-body-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
