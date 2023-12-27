@@ -6,7 +6,7 @@ body {
     flex: 1;
 }
 
-.upper-body {
+.upper-body, .footer {
     background:  #1f2937;
     padding-left: 150px;
     padding-right: 150px;
@@ -156,4 +156,52 @@ ul {
     font-weight: bold;
     padding-left: 310px;
     font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-shrink: 0;
+    gap: 100px;
+}
+
+.container-text {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-subtext {
+    color: lightgray;
+}
+
+.lowest-wrapper {
+    background: #3882f8;
+    width: 800px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 315px;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.bottom-button {
+    background-color: #3882f8;
+    color: #f9faf8;
+    border-radius: 12px;
+    border-color:#e5e7eb;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 35px;
+    margin-top: 10px;   
+}
+
+.footer {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
